@@ -7,6 +7,7 @@ import Contact from "./Paneller/Contact";
 import Photo from "./Paneller/Photo";
 
 
+
 const Panel = () => {
 
 
@@ -42,7 +43,7 @@ const Panel = () => {
             </div>
 
             <div className="content-panel">
-               
+           
                 {
                     contentVisibilty.title ? (
                         <PageTitle />
